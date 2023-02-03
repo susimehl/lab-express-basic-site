@@ -10,6 +10,8 @@ body {
 	font-size: 26px;
     justify-content: space-around;
     font-family: "Lucida Console", "Courier New", monospace;
+
+   
 }
 
 
@@ -22,15 +24,21 @@ a {
     font-size:10px ;
      
 }
-
-#flexboxi {
-    
+#flexbox-container{
+    display: flex;
+    align-items: center;
 
 }
-
 #items {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     width: 10em;
+}
+.photogallery img{
+    max-width:400px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    
 }
